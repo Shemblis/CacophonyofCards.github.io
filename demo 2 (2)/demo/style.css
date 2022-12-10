@@ -1,0 +1,174 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin: 10px;
+    background-color: #ffeb5b;
+    width: 90%;
+    max-width: 1024px;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column1 {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+{
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+</style>
+h1 { font-size: 1.75em; }
+h1 {text-align: center;}
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.125em; }
+footer p { font-size: .75em; }
+
+main {
+    width: 50%;
+    float: left;
+}
+aside {
+    width: 49%;
+    float: right;
+}
+
+/* applies 10 pixel pad to headings */
+h1, h2, h3 {
+    padding: 10px;
+}
+
+/* applies 5 pixel pad on left and right of paragraphs */
+p {
+    padding: 0 5px;
+}
+
+/* applies the horizontal navigation menu style */
+#nav_menu ul {
+    list-style-type: none;
+    padding: 1em 0;    /*padding above and below li elemnts */
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; }
+#nav_menu ul li {
+    display: inline;
+    padding: 0 1.5em; }
+#nav_menu ul li a {
+    font-weight: bold;
+    color: blue; }
+#nav_menu ul li a.current { text-decoration: none; }
+
+
+
+
+
+/* hide the mobile menu initially */
+#mobile_menu {
+    display: none;
+}
+
+
+
+/* mobile landscape to tablet portrait */
+@media only screen and (max-width: 767px) {
+    #nav_menu {
+    	display: none;
+    }
+    #mobile_menu {
+    	display: block;
+    }
+    .slicknav_menu {
+	    background-color: #149ed9 !important;	
+    }
+    #mobile_menu {
+        grid-area: navi;
+    }
+}
+
+
+
+@media only screen and (max-width: 959px) {
+    #nav_menu ul li a {
+	    font-size: .875em;
+    }
+    section h1 {
+	    font-size: 1.5em;
+    }
+    section h2, aside h2 {
+	    font-size: 1.125em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
