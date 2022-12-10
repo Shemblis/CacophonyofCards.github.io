@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+*****************************************************************************
+Title: Week 16 :Final Project
+Use: Final Website Project 
+Author: Pedro Rodriguez
+School/Term: Southern Illinois University, Fall 2022
+Developed: December 16, 2022
+Tested: Google Chrome, Mozilla Firefox, Opera Gx
+******************************************************************************
+-->
+
+<html lang="en-US">
+<head>
+    
+    <title>News</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slicknav.css	">
+        
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+        </script>   
+
+</head>
+<body>
+<div class="row">
+  <div class="column">
+    <img src="CocLogo.jpg" alt="Logo" style="width:100%">
+  </div>
+  <div class="column1">
+    <img src="CocLogo.jpg" alt="Logo" style="width:100%">
+  </div>
+</div>
+<h1>News</h1> 
+<!-- nav menu here
+-->
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+           <li><a href="index.htm">Home</a></li>
+           <li><a href="SetsOffered.htm">Sets Offered</a></li>
+            <li><a href="AboutUs.htm">About Us</a></li>
+           <li><a href="News.htm">News</a></li>
+           <li><a href="contact.htm">Contact Us</a></li>
+		   <li><a href="CotW.htm">Card of the Week</a></li>
+        </ul>
+    </nav>
+
+<h1>Whats New?</h1>
+
+<div class="row1">
+  <div class="column3" style="background-color:#aaa;">
+    <h2>Upcoming Tournaments</h2>
+    <p>WIP</p>
+	<p>Check Back Soon!</p>
+  </div>
+  <div class="column3" style="background-color:#bbb;">
+    <h2>Set News</h2>
+    <p>WIP</p>
+	<p>Check Back Soon!</p>
+  </div>
+  <div class="column3" style="background-color:#ccc;">
+    <h2>Upcoming Sets</h2>
+    <P>  Dominaria Remastered - January 13 2023
+		<br> Phyrexia: All Will be One - February 10 2023
+		<br> March of the Machine - Spring 2023
+		<br>March of the Machine: The Aftermath - Spring 2023
+		<br>Universes Beyond: Lord of the Rings: Tales of the Middle-Earth - Fall 2023
+		<br>Wilds of Eldraine - Fall 2023
+  </div>
+</div>
+
+    
+    
+</body>
+</html>
